@@ -47,6 +47,10 @@ parts:
     plugin: go
     build-snaps:
       - go
+    
+    stage-snaps:
+      - ttyd
+      - ffmpeg
       
     override-pull: |
       craftctl default
