@@ -99,6 +99,12 @@ Or, use Docker to run VHS directly, dependencies included:
 docker run --rm -v $PWD:/vhs ghcr.io/charmbracelet/vhs <cassette>.tape
 ```
 
+Or, install the snap:
+
+```sh
+sudo snap install vhs
+```
+
 Or, download it:
 
 * [Packages][releases] are available in Debian and RPM formats
