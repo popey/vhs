@@ -12,7 +12,7 @@ contact: https://github.com/popey/vhs
  
 base: core24
 grade: stable
-confinement: strict
+confinement: classic
 compression: lzo
 
 platforms:
@@ -35,10 +35,6 @@ platforms:
 apps:
   vhs:
     command: bin/vhs
-    plugs:
-      - home
-      - network
-      - network-bind
 
 parts:
   vhs:
